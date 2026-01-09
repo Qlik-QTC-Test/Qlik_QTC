@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OE_warehouses",
+  "name": "OE_WAREHOUSES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "WAREHOUSES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

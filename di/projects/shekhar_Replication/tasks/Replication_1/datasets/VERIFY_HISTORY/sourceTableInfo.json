@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_verify_history",
+  "name": "GSMADMIN_INTERNAL_VERIFY_HISTORY",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "VERIFY_HISTORY",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

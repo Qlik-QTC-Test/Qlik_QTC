@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SHEKHAR_TARGET_test_customer",
+  "name": "SHEKHAR_TARGET_TEST_CUSTOMER",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "TEST_CUSTOMER",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SHEKHAR_TARGET.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

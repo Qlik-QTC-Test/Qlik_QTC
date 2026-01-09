@@ -1,0 +1,17 @@
+{
+  "id": "wlm_violation_stream",
+  "name": "WLM_VIOLATION_STREAM",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$APPQOSSYS_wlm_violation_stream",
+      "name": "WLM_VIOLATION_STREAM",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
