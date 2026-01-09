@@ -1,0 +1,17 @@
+{
+  "id": "rule_set_rule",
+  "name": "RULE_SET_RULE$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$DVSYS_rule_set_rule",
+      "name": "RULE_SET_RULE$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

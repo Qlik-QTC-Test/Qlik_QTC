@@ -1,0 +1,17 @@
+{
+  "id": "policy_owner",
+  "name": "POLICY_OWNER$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$DVSYS_policy_owner",
+      "name": "POLICY_OWNER$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

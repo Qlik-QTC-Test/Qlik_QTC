@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_policy_owner",
+  "name": "DVSYS_POLICY_OWNER$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "POLICY_OWNER$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

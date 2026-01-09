@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_partition_set",
+  "name": "GSMADMIN_INTERNAL_PARTITION_SET",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "PARTITION_SET",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

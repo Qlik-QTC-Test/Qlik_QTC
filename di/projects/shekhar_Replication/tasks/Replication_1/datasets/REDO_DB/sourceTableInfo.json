@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_redo_db",
+  "name": "SYSTEM_REDO_DB",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "REDO_DB",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

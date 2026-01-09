@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_policy",
+  "name": "DVSYS_POLICY$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "POLICY$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

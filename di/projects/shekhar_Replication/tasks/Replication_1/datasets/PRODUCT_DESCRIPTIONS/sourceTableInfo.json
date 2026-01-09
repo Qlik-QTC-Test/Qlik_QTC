@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OE_product_descriptions",
+  "name": "OE_PRODUCT_DESCRIPTIONS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "PRODUCT_DESCRIPTIONS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

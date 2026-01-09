@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_realm_t",
+  "name": "DVSYS_REALM_T$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "REALM_T$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

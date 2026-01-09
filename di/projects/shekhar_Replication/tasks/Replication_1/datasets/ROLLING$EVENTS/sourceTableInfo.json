@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_rollingevents",
+  "name": "SYSTEM_ROLLING$EVENTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ROLLING$EVENTS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

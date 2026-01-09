@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_rollingstatus",
+  "name": "SYSTEM_ROLLING$STATUS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ROLLING$STATUS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

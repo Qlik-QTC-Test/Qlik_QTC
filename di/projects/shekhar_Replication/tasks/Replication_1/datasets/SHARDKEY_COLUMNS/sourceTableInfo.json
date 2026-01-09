@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_shardkey_columns",
+  "name": "GSMADMIN_INTERNAL_SHARDKEY_COLUMNS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "SHARDKEY_COLUMNS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_scheduler_job_args_tbl",
+  "name": "SYSTEM_SCHEDULER_JOB_ARGS_TBL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "SCHEDULER_JOB_ARGS_TBL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_service",
+  "name": "GSMADMIN_INTERNAL_SERVICE",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "SERVICE",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

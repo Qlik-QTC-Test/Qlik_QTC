@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_rule_t",
+  "name": "DVSYS_RULE_T$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "RULE_T$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

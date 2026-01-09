@@ -1,0 +1,17 @@
+{
+  "id": "rollingstatistics",
+  "name": "ROLLING$STATISTICS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_rollingstatistics",
+      "name": "ROLLING$STATISTICS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
