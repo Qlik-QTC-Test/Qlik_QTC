@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OUTLN_ol",
+  "name": "OUTLN_OL$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OL$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OUTLN.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

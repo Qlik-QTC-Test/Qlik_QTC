@@ -1,0 +1,17 @@
+{
+  "id": "ojdspermissions",
+  "name": "OJDS$PERMISSIONS$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$OJVMSYS_ojdspermissions",
+      "name": "OJDS$PERMISSIONS$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

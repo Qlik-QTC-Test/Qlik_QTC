@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsuser_compartments",
+  "name": "LBACSYS_OLS$USER_COMPARTMENTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$USER_COMPARTMENTS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

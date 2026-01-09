@@ -1,0 +1,17 @@
+{
+  "id": "orddcm_ct_pred_oprd_wrk",
+  "name": "ORDDCM_CT_PRED_OPRD_WRK",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$ORDDATA_orddcm_ct_pred_oprd_wrk",
+      "name": "ORDDCM_CT_PRED_OPRD_WRK",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

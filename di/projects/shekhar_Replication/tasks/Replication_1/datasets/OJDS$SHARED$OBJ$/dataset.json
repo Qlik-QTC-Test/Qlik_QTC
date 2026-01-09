@@ -1,0 +1,17 @@
+{
+  "id": "ojdssharedobj",
+  "name": "OJDS$SHARED$OBJ$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$OJVMSYS_ojdssharedobj",
+      "name": "OJDS$SHARED$OBJ$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

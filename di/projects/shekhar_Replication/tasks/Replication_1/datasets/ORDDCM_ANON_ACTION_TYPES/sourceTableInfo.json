@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_anon_action_types",
+  "name": "ORDDATA_ORDDCM_ANON_ACTION_TYPES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_ANON_ACTION_TYPES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

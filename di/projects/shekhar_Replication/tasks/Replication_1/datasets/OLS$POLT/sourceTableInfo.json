@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olspolt",
+  "name": "LBACSYS_OLS$POLT",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$POLT",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

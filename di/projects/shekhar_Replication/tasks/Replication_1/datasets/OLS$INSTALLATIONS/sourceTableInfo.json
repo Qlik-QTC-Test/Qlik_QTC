@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsinstallations",
+  "name": "LBACSYS_OLS$INSTALLATIONS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$INSTALLATIONS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

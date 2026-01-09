@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsuser",
+  "name": "LBACSYS_OLS$USER",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$USER",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

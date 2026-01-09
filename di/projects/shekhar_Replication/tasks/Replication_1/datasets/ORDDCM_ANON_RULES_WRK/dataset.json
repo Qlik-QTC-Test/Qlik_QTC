@@ -1,0 +1,17 @@
+{
+  "id": "orddcm_anon_rules_wrk",
+  "name": "ORDDCM_ANON_RULES_WRK",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$ORDDATA_orddcm_anon_rules_wrk",
+      "name": "ORDDCM_ANON_RULES_WRK",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

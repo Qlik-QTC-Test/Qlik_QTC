@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olspol",
+  "name": "LBACSYS_OLS$POL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$POL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

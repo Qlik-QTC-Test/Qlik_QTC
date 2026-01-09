@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olslevels",
+  "name": "LBACSYS_OLS$LEVELS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$LEVELS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

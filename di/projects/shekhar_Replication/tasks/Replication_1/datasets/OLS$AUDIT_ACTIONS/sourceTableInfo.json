@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsaudit_actions",
+  "name": "LBACSYS_OLS$AUDIT_ACTIONS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$AUDIT_ACTIONS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

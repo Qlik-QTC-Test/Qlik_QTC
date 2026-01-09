@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsprofile",
+  "name": "LBACSYS_OLS$PROFILE",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$PROFILE",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

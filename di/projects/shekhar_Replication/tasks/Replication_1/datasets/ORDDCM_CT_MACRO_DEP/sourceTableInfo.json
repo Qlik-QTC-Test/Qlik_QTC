@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_ct_macro_dep",
+  "name": "ORDDATA_ORDDCM_CT_MACRO_DEP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_CT_MACRO_DEP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

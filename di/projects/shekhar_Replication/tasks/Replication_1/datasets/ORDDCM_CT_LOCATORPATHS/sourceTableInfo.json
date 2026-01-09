@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_ct_locatorpaths",
+  "name": "ORDDATA_ORDDCM_CT_LOCATORPATHS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_CT_LOCATORPATHS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

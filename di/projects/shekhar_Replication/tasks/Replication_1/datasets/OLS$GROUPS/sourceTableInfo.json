@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$LBACSYS_olsgroups",
+  "name": "LBACSYS_OLS$GROUPS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OLS$GROUPS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

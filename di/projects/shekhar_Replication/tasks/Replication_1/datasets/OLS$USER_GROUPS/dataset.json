@@ -1,0 +1,17 @@
+{
+  "id": "olsuser_groups",
+  "name": "OLS$USER_GROUPS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$LBACSYS_olsuser_groups",
+      "name": "OLS$USER_GROUPS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

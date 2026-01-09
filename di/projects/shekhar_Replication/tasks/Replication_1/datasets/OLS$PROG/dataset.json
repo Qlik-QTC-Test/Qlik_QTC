@@ -1,0 +1,17 @@
+{
+  "id": "olsprog",
+  "name": "OLS$PROG",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$LBACSYS_olsprog",
+      "name": "OLS$PROG",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
