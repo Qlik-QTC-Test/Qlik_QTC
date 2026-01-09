@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrc_tspart",
+  "name": "SYSTEM_LOGMNRC_TSPART",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRC_TSPART",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

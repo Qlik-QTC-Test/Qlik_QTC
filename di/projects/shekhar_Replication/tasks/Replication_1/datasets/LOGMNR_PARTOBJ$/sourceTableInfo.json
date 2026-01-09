@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_partobj",
+  "name": "SYSTEM_LOGMNR_PARTOBJ$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_PARTOBJ$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

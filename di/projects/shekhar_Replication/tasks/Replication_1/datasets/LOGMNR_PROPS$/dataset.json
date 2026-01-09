@@ -1,0 +1,17 @@
+{
+  "id": "logmnr_props",
+  "name": "LOGMNR_PROPS$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnr_props",
+      "name": "LOGMNR_PROPS$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

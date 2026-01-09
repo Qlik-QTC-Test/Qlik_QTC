@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrc_concol_gg",
+  "name": "SYSTEM_LOGMNRC_CONCOL_GG",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRC_CONCOL_GG",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrc_dbname_uid_map",
+  "name": "SYSTEM_LOGMNRC_DBNAME_UID_MAP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRC_DBNAME_UID_MAP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrc_indcol_gg",
+  "name": "SYSTEM_LOGMNRC_INDCOL_GG",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRC_INDCOL_GG",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

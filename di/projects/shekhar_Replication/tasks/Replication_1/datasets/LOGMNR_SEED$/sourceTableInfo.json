@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_seed",
+  "name": "SYSTEM_LOGMNR_SEED$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_SEED$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

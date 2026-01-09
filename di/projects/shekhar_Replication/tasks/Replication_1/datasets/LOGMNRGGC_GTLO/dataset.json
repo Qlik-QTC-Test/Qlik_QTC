@@ -1,0 +1,17 @@
+{
+  "id": "logmnrggc_gtlo",
+  "name": "LOGMNRGGC_GTLO",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnrggc_gtlo",
+      "name": "LOGMNRGGC_GTLO",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "logmnr_shard_ts",
+  "name": "LOGMNR_SHARD_TS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnr_shard_ts",
+      "name": "LOGMNR_SHARD_TS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

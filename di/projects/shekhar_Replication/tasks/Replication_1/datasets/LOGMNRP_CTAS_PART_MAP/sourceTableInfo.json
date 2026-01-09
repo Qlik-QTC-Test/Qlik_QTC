@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrp_ctas_part_map",
+  "name": "SYSTEM_LOGMNRP_CTAS_PART_MAP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRP_CTAS_PART_MAP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

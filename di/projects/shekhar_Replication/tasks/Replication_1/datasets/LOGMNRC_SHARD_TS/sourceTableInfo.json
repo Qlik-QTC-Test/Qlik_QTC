@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnrc_shard_ts",
+  "name": "SYSTEM_LOGMNRC_SHARD_TS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNRC_SHARD_TS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

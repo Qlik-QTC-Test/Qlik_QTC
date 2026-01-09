@@ -1,0 +1,17 @@
+{
+  "id": "logmnrc_indcol_gg",
+  "name": "LOGMNRC_INDCOL_GG",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnrc_indcol_gg",
+      "name": "LOGMNRC_INDCOL_GG",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

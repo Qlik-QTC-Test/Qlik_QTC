@@ -1,0 +1,17 @@
+{
+  "id": "logmnr_tabcompart",
+  "name": "LOGMNR_TABCOMPART$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnr_tabcompart",
+      "name": "LOGMNR_TABCOMPART$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

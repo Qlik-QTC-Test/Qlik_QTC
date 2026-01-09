@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_obj",
+  "name": "SYSTEM_LOGMNR_OBJ$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_OBJ$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

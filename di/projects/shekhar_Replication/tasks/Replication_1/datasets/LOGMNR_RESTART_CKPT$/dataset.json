@@ -1,0 +1,17 @@
+{
+  "id": "logmnr_restart_ckpt",
+  "name": "LOGMNR_RESTART_CKPT$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnr_restart_ckpt",
+      "name": "LOGMNR_RESTART_CKPT$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

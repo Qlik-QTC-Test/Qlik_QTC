@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_spill",
+  "name": "SYSTEM_LOGMNR_SPILL$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_SPILL$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_lobfrag",
+  "name": "SYSTEM_LOGMNR_LOBFRAG$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_LOBFRAG$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
