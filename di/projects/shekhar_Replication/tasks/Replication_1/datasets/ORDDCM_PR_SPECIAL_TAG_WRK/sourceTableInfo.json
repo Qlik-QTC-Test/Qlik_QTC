@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_pr_special_tag_wrk",
+  "name": "ORDDATA_ORDDCM_PR_SPECIAL_TAG_WRK",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_PR_SPECIAL_TAG_WRK",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OE_orders",
+  "name": "OE_ORDERS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDERS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

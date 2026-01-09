@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_prv_attrs_wrk",
+  "name": "ORDDATA_ORDDCM_PRV_ATTRS_WRK",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_PRV_ATTRS_WRK",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

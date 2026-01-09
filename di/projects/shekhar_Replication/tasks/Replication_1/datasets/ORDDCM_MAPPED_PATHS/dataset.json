@@ -1,0 +1,17 @@
+{
+  "id": "orddcm_mapped_paths",
+  "name": "ORDDCM_MAPPED_PATHS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$ORDDATA_orddcm_mapped_paths",
+      "name": "ORDDCM_MAPPED_PATHS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

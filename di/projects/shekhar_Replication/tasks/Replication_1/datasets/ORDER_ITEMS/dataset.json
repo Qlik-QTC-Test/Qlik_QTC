@@ -1,0 +1,17 @@
+{
+  "id": "order_items",
+  "name": "ORDER_ITEMS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$OE_order_items",
+      "name": "ORDER_ITEMS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

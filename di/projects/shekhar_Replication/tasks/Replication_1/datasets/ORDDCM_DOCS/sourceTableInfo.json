@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_docs",
+  "name": "ORDDATA_ORDDCM_DOCS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_DOCS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

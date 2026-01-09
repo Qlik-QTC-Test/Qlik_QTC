@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_stored_tags_wrk",
+  "name": "ORDDATA_ORDDCM_STORED_TAGS_WRK",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_STORED_TAGS_WRK",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

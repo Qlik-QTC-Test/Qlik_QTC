@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_prefs_lookup",
+  "name": "ORDDATA_ORDDCM_PREFS_LOOKUP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_PREFS_LOOKUP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

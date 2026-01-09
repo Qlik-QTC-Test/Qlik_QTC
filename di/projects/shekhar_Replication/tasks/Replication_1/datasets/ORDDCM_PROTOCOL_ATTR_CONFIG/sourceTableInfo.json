@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_protocol_attr_config",
+  "name": "ORDDATA_ORDDCM_PROTOCOL_ATTR_CONFIG",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_PROTOCOL_ATTR_CONFIG",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

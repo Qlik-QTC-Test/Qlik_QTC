@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_mapped_paths_wrk",
+  "name": "ORDDATA_ORDDCM_MAPPED_PATHS_WRK",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_MAPPED_PATHS_WRK",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

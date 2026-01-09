@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_vr_dt_map",
+  "name": "ORDDATA_ORDDCM_VR_DT_MAP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_VR_DT_MAP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

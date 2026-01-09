@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_uid_defs_wrk",
+  "name": "ORDDATA_ORDDCM_UID_DEFS_WRK",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_UID_DEFS_WRK",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

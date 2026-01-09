@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$ORDDATA_orddcm_internal_tags",
+  "name": "ORDDATA_ORDDCM_INTERNAL_TAGS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDDCM_INTERNAL_TAGS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
