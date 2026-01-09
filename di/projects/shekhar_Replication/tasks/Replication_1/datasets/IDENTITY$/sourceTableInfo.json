@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_identity",
+  "name": "DVSYS_IDENTITY$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "IDENTITY$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

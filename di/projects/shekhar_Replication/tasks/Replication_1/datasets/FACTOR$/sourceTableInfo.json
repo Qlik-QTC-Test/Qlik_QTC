@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_factor",
+  "name": "DVSYS_FACTOR$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "FACTOR$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

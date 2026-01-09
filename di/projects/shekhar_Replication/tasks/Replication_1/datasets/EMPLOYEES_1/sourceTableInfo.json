@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SHEKHAR_employees",
+  "name": "SHEKHAR_EMPLOYEES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "EMPLOYEES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

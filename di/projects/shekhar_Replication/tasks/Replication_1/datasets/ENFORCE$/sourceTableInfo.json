@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_enforce",
+  "name": "DVSYS_ENFORCE$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ENFORCE$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

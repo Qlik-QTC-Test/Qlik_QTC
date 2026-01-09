@@ -1,0 +1,17 @@
+{
+  "id": "logmnr_indsubpart",
+  "name": "LOGMNR_INDSUBPART$",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SYSTEM_logmnr_indsubpart",
+      "name": "LOGMNR_INDSUBPART$",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSFWUSER_ip_acl",
+  "name": "DBSFWUSER_IP_ACL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "IP_ACL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSFWUSER.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

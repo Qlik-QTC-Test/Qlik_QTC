@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_gsm_requests",
+  "name": "GSMADMIN_INTERNAL_GSM_REQUESTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "GSM_REQUESTS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

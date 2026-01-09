@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$HR_job_history",
+  "name": "HR_JOB_HISTORY",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "JOB_HISTORY",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OE_inventories",
+  "name": "OE_INVENTORIES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "INVENTORIES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DVSYS_factor_type_t",
+  "name": "DVSYS_FACTOR_TYPE_T$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "FACTOR_TYPE_T$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

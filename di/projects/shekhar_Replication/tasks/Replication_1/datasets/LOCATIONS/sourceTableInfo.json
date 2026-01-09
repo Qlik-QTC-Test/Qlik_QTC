@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$HR_locations",
+  "name": "HR_LOCATIONS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOCATIONS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

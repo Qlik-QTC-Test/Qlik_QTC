@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_dictionary",
+  "name": "SYSTEM_LOGMNR_DICTIONARY$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_DICTIONARY$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_indcompart",
+  "name": "SYSTEM_LOGMNR_INDCOMPART$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_INDCOMPART$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

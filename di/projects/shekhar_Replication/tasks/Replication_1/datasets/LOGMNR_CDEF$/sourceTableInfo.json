@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_cdef",
+  "name": "SYSTEM_LOGMNR_CDEF$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_CDEF$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

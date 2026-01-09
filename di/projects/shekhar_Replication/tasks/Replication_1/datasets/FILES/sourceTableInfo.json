@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_files",
+  "name": "GSMADMIN_INTERNAL_FILES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "FILES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

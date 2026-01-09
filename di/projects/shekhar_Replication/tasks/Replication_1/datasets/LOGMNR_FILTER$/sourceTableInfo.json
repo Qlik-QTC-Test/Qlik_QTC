@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logmnr_filter",
+  "name": "SYSTEM_LOGMNR_FILTER$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGMNR_FILTER$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

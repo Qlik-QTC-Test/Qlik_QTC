@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$HR_employees",
+  "name": "HR_EMPLOYEES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "EMPLOYEES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
