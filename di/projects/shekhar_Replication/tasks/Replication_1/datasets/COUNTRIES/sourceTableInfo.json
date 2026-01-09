@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$HR_countries",
+  "name": "HR_COUNTRIES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "COUNTRIES",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

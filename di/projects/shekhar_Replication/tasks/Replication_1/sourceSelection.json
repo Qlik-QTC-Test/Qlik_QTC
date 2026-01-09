@@ -1,0 +1,2125 @@
+{
+  "sourceConnection": "{{task.replication_1-9dnh.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "WLM_CLASSIFIER_PLAN",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$APPQOSSYS_wlm_classifier_plan"
+    },
+    {
+      "name": "WLM_FEATURE_USAGE",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$APPQOSSYS_wlm_feature_usage"
+    },
+    {
+      "name": "WLM_METRICS_STREAM",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$APPQOSSYS_wlm_metrics_stream"
+    },
+    {
+      "name": "WLM_MPA_STREAM",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$APPQOSSYS_wlm_mpa_stream"
+    },
+    {
+      "name": "WLM_VIOLATION_STREAM",
+      "schema": "{{task.replication_1-9dnh:null$_$APPQOSSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$APPQOSSYS_wlm_violation_stream"
+    },
+    {
+      "name": "ACL$_OBJ",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSFWUSER.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSFWUSER_acl_obj"
+    },
+    {
+      "name": "EXADIRECT_ACL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSFWUSER.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSFWUSER_exadirect_acl"
+    },
+    {
+      "name": "IP_ACL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSFWUSER.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSFWUSER_ip_acl"
+    },
+    {
+      "name": "BSLN_BASELINES",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_bsln_baselines"
+    },
+    {
+      "name": "BSLN_METRIC_DEFAULTS",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_bsln_metric_defaults"
+    },
+    {
+      "name": "BSLN_STATISTICS",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_bsln_statistics"
+    },
+    {
+      "name": "BSLN_THRESHOLD_PARAMS",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_bsln_threshold_params"
+    },
+    {
+      "name": "BSLN_TIMEGROUPS",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_bsln_timegroups"
+    },
+    {
+      "name": "MGMT_BASELINE",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_baseline"
+    },
+    {
+      "name": "MGMT_BASELINE_SQL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_baseline_sql"
+    },
+    {
+      "name": "MGMT_CAPTURE",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_capture"
+    },
+    {
+      "name": "MGMT_CAPTURE_SQL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_capture_sql"
+    },
+    {
+      "name": "MGMT_DB_FEATURE_LOG",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_db_feature_log"
+    },
+    {
+      "name": "MGMT_HISTORY",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_history"
+    },
+    {
+      "name": "MGMT_HISTORY_SQL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_history_sql"
+    },
+    {
+      "name": "MGMT_LATEST",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_latest"
+    },
+    {
+      "name": "MGMT_LATEST_SQL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_latest_sql"
+    },
+    {
+      "name": "MGMT_RESPONSE_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_response_config"
+    },
+    {
+      "name": "MGMT_SNAPSHOT",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_snapshot"
+    },
+    {
+      "name": "MGMT_SNAPSHOT_SQL",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DBSNMP_mgmt_snapshot_sql"
+    },
+    {
+      "name": "AUDIT_TRAIL$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_audit_trail"
+    },
+    {
+      "name": "CODE_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_code_t"
+    },
+    {
+      "name": "CODE_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_code_t_temp"
+    },
+    {
+      "name": "CODE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_code"
+    },
+    {
+      "name": "COMMAND_RULE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_command_rule"
+    },
+    {
+      "name": "CONFIG$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_config"
+    },
+    {
+      "name": "DV_AUTH$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_dv_auth"
+    },
+    {
+      "name": "ENFORCE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_enforce"
+    },
+    {
+      "name": "FACTOR_LINK$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_link"
+    },
+    {
+      "name": "FACTOR_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_t"
+    },
+    {
+      "name": "FACTOR_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_t_temp"
+    },
+    {
+      "name": "FACTOR_TYPE_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_type_t"
+    },
+    {
+      "name": "FACTOR_TYPE_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_type_t_temp"
+    },
+    {
+      "name": "FACTOR_TYPE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor_type"
+    },
+    {
+      "name": "FACTOR$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_factor"
+    },
+    {
+      "name": "IDENTITY_MAP$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_identity_map"
+    },
+    {
+      "name": "IDENTITY$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_identity"
+    },
+    {
+      "name": "MAC_POLICY_FACTOR$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_mac_policy_factor"
+    },
+    {
+      "name": "MAC_POLICY$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_mac_policy"
+    },
+    {
+      "name": "POLICY_LABEL$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy_label"
+    },
+    {
+      "name": "POLICY_OBJECT$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy_object"
+    },
+    {
+      "name": "POLICY_OWNER$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy_owner"
+    },
+    {
+      "name": "POLICY_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy_t"
+    },
+    {
+      "name": "POLICY_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy_t_temp"
+    },
+    {
+      "name": "POLICY$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_policy"
+    },
+    {
+      "name": "REALM_AUTH$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_realm_auth"
+    },
+    {
+      "name": "REALM_OBJECT$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_realm_object"
+    },
+    {
+      "name": "REALM_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_realm_t"
+    },
+    {
+      "name": "REALM_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_realm_t_temp"
+    },
+    {
+      "name": "REALM$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_realm"
+    },
+    {
+      "name": "ROLE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_role"
+    },
+    {
+      "name": "RULE_SET_RULE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_set_rule"
+    },
+    {
+      "name": "RULE_SET_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_set_t"
+    },
+    {
+      "name": "RULE_SET_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_set_t_temp"
+    },
+    {
+      "name": "RULE_SET$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_set"
+    },
+    {
+      "name": "RULE_T$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_t"
+    },
+    {
+      "name": "RULE_T$_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule_t_temp"
+    },
+    {
+      "name": "RULE$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_rule"
+    },
+    {
+      "name": "SIMULATION_LOG$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_simulation_log"
+    },
+    {
+      "name": "STATUS$",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$DVSYS_status"
+    },
+    {
+      "name": "ALL_CHUNKS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_all_chunks"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_G",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_g"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_H",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_h"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_I",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_i"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_L",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_l"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_S",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_s"
+    },
+    {
+      "name": "AQ$_CHANGE_LOG_QUEUE_TABLE_T",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_aq_change_log_queue_table_t"
+    },
+    {
+      "name": "BACKUP_CONFIG_INFO",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_backup_config_info"
+    },
+    {
+      "name": "BROKER_CONFIGS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_broker_configs"
+    },
+    {
+      "name": "CATALOG_REQUESTS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_catalog_requests"
+    },
+    {
+      "name": "CHANGE_LOG_QUEUE_TABLE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_change_log_queue_table"
+    },
+    {
+      "name": "CHUNK_LOC",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_chunk_loc"
+    },
+    {
+      "name": "CHUNKS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_chunks"
+    },
+    {
+      "name": "CLOUD",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_cloud"
+    },
+    {
+      "name": "CONTAINER_DATABASE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_container_database"
+    },
+    {
+      "name": "CREDENTIAL",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_credential"
+    },
+    {
+      "name": "DATABASE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_database"
+    },
+    {
+      "name": "DATABASE_POOL",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_database_pool"
+    },
+    {
+      "name": "DATABASE_POOL_ADMIN",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_database_pool_admin"
+    },
+    {
+      "name": "DDLID$",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_ddlid"
+    },
+    {
+      "name": "FILES",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_files"
+    },
+    {
+      "name": "GDSCTL_MESSAGES",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_gdsctl_messages"
+    },
+    {
+      "name": "GLOBAL_TABLE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_global_table"
+    },
+    {
+      "name": "GSM",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_gsm"
+    },
+    {
+      "name": "GSM_REQUESTS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_gsm_requests"
+    },
+    {
+      "name": "HETEROGENEOUS_COLUMNS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_heterogeneous_columns"
+    },
+    {
+      "name": "MOVE_DATA",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_move_data"
+    },
+    {
+      "name": "PARTITION_SET",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_partition_set"
+    },
+    {
+      "name": "REGION",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_region"
+    },
+    {
+      "name": "SERVICE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_service"
+    },
+    {
+      "name": "SERVICE_PREFERRED_AVAILABLE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_service_preferred_available"
+    },
+    {
+      "name": "SHARD_GROUP",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_shard_group"
+    },
+    {
+      "name": "SHARD_SPACE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_shard_space"
+    },
+    {
+      "name": "SHARD_TS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_shard_ts"
+    },
+    {
+      "name": "SHARDKEY_COLUMNS",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_shardkey_columns"
+    },
+    {
+      "name": "TABLE_FAMILY",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_table_family"
+    },
+    {
+      "name": "TABLESPACE_SET",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_tablespace_set"
+    },
+    {
+      "name": "TS_SET_TABLE",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_ts_set_table"
+    },
+    {
+      "name": "VERIFY_HISTORY",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_verify_history"
+    },
+    {
+      "name": "VNCR",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$GSMADMIN_INTERNAL_vncr"
+    },
+    {
+      "name": "COUNTRIES",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_countries"
+    },
+    {
+      "name": "DEPARTMENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_departments"
+    },
+    {
+      "name": "EMPLOYEES",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_employees"
+    },
+    {
+      "name": "JOB_HISTORY",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_job_history"
+    },
+    {
+      "name": "JOBS",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_jobs"
+    },
+    {
+      "name": "LOCATIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_locations"
+    },
+    {
+      "name": "REGIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_regions"
+    },
+    {
+      "name": "OLS$AUDIT",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsaudit"
+    },
+    {
+      "name": "OLS$AUDIT_ACTIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsaudit_actions"
+    },
+    {
+      "name": "OLS$COMPARTMENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olscompartments"
+    },
+    {
+      "name": "OLS$DIP_DEBUG",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsdip_debug"
+    },
+    {
+      "name": "OLS$DIP_EVENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsdip_events"
+    },
+    {
+      "name": "OLS$GROUPS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsgroups"
+    },
+    {
+      "name": "OLS$INSTALLATIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsinstallations"
+    },
+    {
+      "name": "OLS$LAB",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olslab"
+    },
+    {
+      "name": "OLS$LEVELS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olslevels"
+    },
+    {
+      "name": "OLS$POL",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olspol"
+    },
+    {
+      "name": "OLS$POLICY_ADMIN",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olspolicy_admin"
+    },
+    {
+      "name": "OLS$POLS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olspols"
+    },
+    {
+      "name": "OLS$POLT",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olspolt"
+    },
+    {
+      "name": "OLS$PROFILE",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsprofile"
+    },
+    {
+      "name": "OLS$PROFILES",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsprofiles"
+    },
+    {
+      "name": "OLS$PROG",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsprog"
+    },
+    {
+      "name": "OLS$PROPS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsprops"
+    },
+    {
+      "name": "OLS$SESSINFO",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olssessinfo"
+    },
+    {
+      "name": "OLS$USER",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsuser"
+    },
+    {
+      "name": "OLS$USER_COMPARTMENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsuser_compartments"
+    },
+    {
+      "name": "OLS$USER_GROUPS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsuser_groups"
+    },
+    {
+      "name": "OLS$USER_LEVELS",
+      "schema": "{{task.replication_1-9dnh:null$_$LBACSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$LBACSYS_olsuser_levels"
+    },
+    {
+      "name": "CUSTOMERS",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_customers"
+    },
+    {
+      "name": "INVENTORIES",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_inventories"
+    },
+    {
+      "name": "ORDER_ITEMS",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_order_items"
+    },
+    {
+      "name": "ORDERS",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_orders"
+    },
+    {
+      "name": "PRODUCT_DESCRIPTIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_product_descriptions"
+    },
+    {
+      "name": "PRODUCT_INFORMATION",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_product_information"
+    },
+    {
+      "name": "PROMOTIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_promotions"
+    },
+    {
+      "name": "WAREHOUSES",
+      "schema": "{{task.replication_1-9dnh:null$_$OE.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OE_warehouses"
+    },
+    {
+      "name": "OJDS$ATTRIBUTES$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdsattributes"
+    },
+    {
+      "name": "OJDS$BINDINGS$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdsbindings"
+    },
+    {
+      "name": "OJDS$INODE$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdsinode"
+    },
+    {
+      "name": "OJDS$PERMISSIONS$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdspermissions"
+    },
+    {
+      "name": "OJDS$REFADDR$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdsrefaddr"
+    },
+    {
+      "name": "OJDS$SHARED$OBJ$",
+      "schema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OJVMSYS_ojdssharedobj"
+    },
+    {
+      "name": "ORDDCM_ANON_ACTION_TYPES",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_action_types"
+    },
+    {
+      "name": "ORDDCM_ANON_ATTRS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_attrs"
+    },
+    {
+      "name": "ORDDCM_ANON_ATTRS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_attrs_wrk"
+    },
+    {
+      "name": "ORDDCM_ANON_RULE_TYPES",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_rule_types"
+    },
+    {
+      "name": "ORDDCM_ANON_RULES",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_rules"
+    },
+    {
+      "name": "ORDDCM_ANON_RULES_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_anon_rules_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_ACTION",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_action"
+    },
+    {
+      "name": "ORDDCM_CT_ACTION_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_action_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_DAREFS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_darefs"
+    },
+    {
+      "name": "ORDDCM_CT_DAREFS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_darefs_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_LOCATORPATHS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_locatorpaths"
+    },
+    {
+      "name": "ORDDCM_CT_LOCATORPATHS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_locatorpaths_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_MACRO_DEP",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_macro_dep"
+    },
+    {
+      "name": "ORDDCM_CT_MACRO_DEP_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_macro_dep_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_MACRO_PAR",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_macro_par"
+    },
+    {
+      "name": "ORDDCM_CT_MACRO_PAR_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_macro_par_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_PRED",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_OPRD",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_oprd"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_OPRD_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_oprd_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_PAR",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_par"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_PAR_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_par_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_SET",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_set"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_SET_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_set_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_PRED_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_pred_wrk"
+    },
+    {
+      "name": "ORDDCM_CT_VLD_MSG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_ct_vld_msg"
+    },
+    {
+      "name": "ORDDCM_DATA_MODEL",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_data_model"
+    },
+    {
+      "name": "ORDDCM_DATA_MODEL_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_data_model_wrk"
+    },
+    {
+      "name": "ORDDCM_DICT_ATTRS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_dict_attrs"
+    },
+    {
+      "name": "ORDDCM_DICT_ATTRS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_dict_attrs_wrk"
+    },
+    {
+      "name": "ORDDCM_DOC_REFS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_doc_refs"
+    },
+    {
+      "name": "ORDDCM_DOC_REFS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_doc_refs_wrk"
+    },
+    {
+      "name": "ORDDCM_DOC_TYPES",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_doc_types"
+    },
+    {
+      "name": "ORDDCM_DOCS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_docs"
+    },
+    {
+      "name": "ORDDCM_DOCS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_docs_wrk"
+    },
+    {
+      "name": "ORDDCM_INSTALL_DOCS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_install_docs"
+    },
+    {
+      "name": "ORDDCM_INTERNAL_TAGS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_internal_tags"
+    },
+    {
+      "name": "ORDDCM_MAPPED_PATHS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_mapped_paths"
+    },
+    {
+      "name": "ORDDCM_MAPPED_PATHS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_mapped_paths_wrk"
+    },
+    {
+      "name": "ORDDCM_MAPPING_DOCS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_mapping_docs"
+    },
+    {
+      "name": "ORDDCM_MAPPING_DOCS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_mapping_docs_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_ADMIN_DOCS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_admin_docs_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_ATTR_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_attr_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_DICOM_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_dicom_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_PRVW_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_prvw_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_SPECIAL_TAG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_special_tag_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_VERSION_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_version_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_WADO_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_wado_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PR_XML_CONFIG_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_pr_xml_config_wrk"
+    },
+    {
+      "name": "ORDDCM_PREFS_LOOKUP",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_prefs_lookup"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_ADMIN_DOCS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_admin_docs"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_ATTR_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_attr_config"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_DICOM_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_dicom_config"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_METADATA",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_metadata"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_PRVW_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_prvw_config"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_SPECIAL_TAG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_special_tag"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_VERSION_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_version_config"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_WADO_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_wado_config"
+    },
+    {
+      "name": "ORDDCM_PROTOCOL_XML_CONFIG",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_protocol_xml_config"
+    },
+    {
+      "name": "ORDDCM_PRV_ATTRS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_prv_attrs"
+    },
+    {
+      "name": "ORDDCM_PRV_ATTRS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_prv_attrs_wrk"
+    },
+    {
+      "name": "ORDDCM_RT_PREF_PARAMS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_rt_pref_params"
+    },
+    {
+      "name": "ORDDCM_RT_PREF_PARAMS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_rt_pref_params_wrk"
+    },
+    {
+      "name": "ORDDCM_STD_ATTRS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_std_attrs"
+    },
+    {
+      "name": "ORDDCM_STD_ATTRS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_std_attrs_wrk"
+    },
+    {
+      "name": "ORDDCM_STORED_TAGS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_stored_tags"
+    },
+    {
+      "name": "ORDDCM_STORED_TAGS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_stored_tags_wrk"
+    },
+    {
+      "name": "ORDDCM_UID_DEFS",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_uid_defs"
+    },
+    {
+      "name": "ORDDCM_UID_DEFS_WRK",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_uid_defs_wrk"
+    },
+    {
+      "name": "ORDDCM_VR_DT_MAP",
+      "schema": "{{task.replication_1-9dnh:null$_$ORDDATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ORDDATA_orddcm_vr_dt_map"
+    },
+    {
+      "name": "OL$",
+      "schema": "{{task.replication_1-9dnh:null$_$OUTLN.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OUTLN_ol"
+    },
+    {
+      "name": "OL$HINTS",
+      "schema": "{{task.replication_1-9dnh:null$_$OUTLN.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OUTLN_olhints"
+    },
+    {
+      "name": "OL$NODES",
+      "schema": "{{task.replication_1-9dnh:null$_$OUTLN.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$OUTLN_olnodes"
+    },
+    {
+      "name": "TEST_CUSTOMER",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR_TARGET.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_TARGET_test_customer"
+    },
+    {
+      "name": "DEPARTMENT",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_department"
+    },
+    {
+      "name": "EMPLOYEES",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_employees"
+    },
+    {
+      "name": "ORDERS",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_orders"
+    },
+    {
+      "name": "PRODUCTS",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_products"
+    },
+    {
+      "name": "TEST_CUSTOMER",
+      "schema": "{{task.replication_1-9dnh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_test_customer"
+    },
+    {
+      "name": "AQ$_INTERNET_AGENT_PRIVS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_internet_agent_privs"
+    },
+    {
+      "name": "AQ$_INTERNET_AGENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_internet_agents"
+    },
+    {
+      "name": "AQ$_KEY_SHARD_MAP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_key_shard_map"
+    },
+    {
+      "name": "AQ$_QUEUE_TABLES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_queue_tables"
+    },
+    {
+      "name": "AQ$_QUEUES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_queues"
+    },
+    {
+      "name": "AQ$_SCHEDULES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_aq_schedules"
+    },
+    {
+      "name": "HELP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_help"
+    },
+    {
+      "name": "LOGMNR_AGE_SPILL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_age_spill"
+    },
+    {
+      "name": "LOGMNR_ATTRCOL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_attrcol"
+    },
+    {
+      "name": "LOGMNR_ATTRIBUTE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_attribute"
+    },
+    {
+      "name": "LOGMNR_CCOL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_ccol"
+    },
+    {
+      "name": "LOGMNR_CDEF$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_cdef"
+    },
+    {
+      "name": "LOGMNR_COL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_col"
+    },
+    {
+      "name": "LOGMNR_COLTYPE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_coltype"
+    },
+    {
+      "name": "LOGMNR_CON$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_con"
+    },
+    {
+      "name": "LOGMNR_CONTAINER$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_container"
+    },
+    {
+      "name": "LOGMNR_DICTIONARY$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_dictionary"
+    },
+    {
+      "name": "LOGMNR_DICTSTATE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_dictstate"
+    },
+    {
+      "name": "LOGMNR_DID$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_did"
+    },
+    {
+      "name": "LOGMNR_ENC$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_enc"
+    },
+    {
+      "name": "LOGMNR_ERROR$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_error"
+    },
+    {
+      "name": "LOGMNR_FILTER$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_filter"
+    },
+    {
+      "name": "LOGMNR_GLOBAL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_global"
+    },
+    {
+      "name": "LOGMNR_ICOL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_icol"
+    },
+    {
+      "name": "LOGMNR_IDNSEQ$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_idnseq"
+    },
+    {
+      "name": "LOGMNR_IND$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_ind"
+    },
+    {
+      "name": "LOGMNR_INDCOMPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_indcompart"
+    },
+    {
+      "name": "LOGMNR_INDPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_indpart"
+    },
+    {
+      "name": "LOGMNR_INDSUBPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_indsubpart"
+    },
+    {
+      "name": "LOGMNR_KOPM$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_kopm"
+    },
+    {
+      "name": "LOGMNR_LOB$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_lob"
+    },
+    {
+      "name": "LOGMNR_LOBFRAG$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_lobfrag"
+    },
+    {
+      "name": "LOGMNR_LOG$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_log"
+    },
+    {
+      "name": "LOGMNR_LOGMNR_BUILDLOG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_logmnr_buildlog"
+    },
+    {
+      "name": "LOGMNR_NTAB$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_ntab"
+    },
+    {
+      "name": "LOGMNR_OBJ$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_obj"
+    },
+    {
+      "name": "LOGMNR_OPQTYPE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_opqtype"
+    },
+    {
+      "name": "LOGMNR_PARAMETER$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_parameter"
+    },
+    {
+      "name": "LOGMNR_PARTOBJ$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_partobj"
+    },
+    {
+      "name": "LOGMNR_PDB_INFO$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_pdb_info"
+    },
+    {
+      "name": "LOGMNR_PROCESSED_LOG$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_processed_log"
+    },
+    {
+      "name": "LOGMNR_PROFILE_PLSQL_STATS$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_profile_plsql_stats"
+    },
+    {
+      "name": "LOGMNR_PROFILE_TABLE_STATS$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_profile_table_stats"
+    },
+    {
+      "name": "LOGMNR_PROPS$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_props"
+    },
+    {
+      "name": "LOGMNR_REFCON$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_refcon"
+    },
+    {
+      "name": "LOGMNR_RESTART_CKPT_TXINFO$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_restart_ckpt_txinfo"
+    },
+    {
+      "name": "LOGMNR_RESTART_CKPT$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_restart_ckpt"
+    },
+    {
+      "name": "LOGMNR_SEED$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_seed"
+    },
+    {
+      "name": "LOGMNR_SESSION_ACTIONS$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_session_actions"
+    },
+    {
+      "name": "LOGMNR_SESSION_EVOLVE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_session_evolve"
+    },
+    {
+      "name": "LOGMNR_SESSION$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_session"
+    },
+    {
+      "name": "LOGMNR_SHARD_TS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_shard_ts"
+    },
+    {
+      "name": "LOGMNR_SPILL$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_spill"
+    },
+    {
+      "name": "LOGMNR_SUBCOLTYPE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_subcoltype"
+    },
+    {
+      "name": "LOGMNR_TAB$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_tab"
+    },
+    {
+      "name": "LOGMNR_TABCOMPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_tabcompart"
+    },
+    {
+      "name": "LOGMNR_TABPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_tabpart"
+    },
+    {
+      "name": "LOGMNR_TABSUBPART$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_tabsubpart"
+    },
+    {
+      "name": "LOGMNR_TS$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_ts"
+    },
+    {
+      "name": "LOGMNR_TYPE$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_type"
+    },
+    {
+      "name": "LOGMNR_UID$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_uid"
+    },
+    {
+      "name": "LOGMNR_USER$",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnr_user"
+    },
+    {
+      "name": "LOGMNRC_CON_GG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_con_gg"
+    },
+    {
+      "name": "LOGMNRC_CONCOL_GG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_concol_gg"
+    },
+    {
+      "name": "LOGMNRC_DBNAME_UID_MAP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_dbname_uid_map"
+    },
+    {
+      "name": "LOGMNRC_GSBA",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_gsba"
+    },
+    {
+      "name": "LOGMNRC_GSII",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_gsii"
+    },
+    {
+      "name": "LOGMNRC_GTCS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_gtcs"
+    },
+    {
+      "name": "LOGMNRC_GTLO",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_gtlo"
+    },
+    {
+      "name": "LOGMNRC_IND_GG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_ind_gg"
+    },
+    {
+      "name": "LOGMNRC_INDCOL_GG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_indcol_gg"
+    },
+    {
+      "name": "LOGMNRC_SEQ_GG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_seq_gg"
+    },
+    {
+      "name": "LOGMNRC_SHARD_TS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_shard_ts"
+    },
+    {
+      "name": "LOGMNRC_TS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_ts"
+    },
+    {
+      "name": "LOGMNRC_TSPART",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_tspart"
+    },
+    {
+      "name": "LOGMNRC_USER",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrc_user"
+    },
+    {
+      "name": "LOGMNRGGC_GTCS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrggc_gtcs"
+    },
+    {
+      "name": "LOGMNRGGC_GTLO",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrggc_gtlo"
+    },
+    {
+      "name": "LOGMNRP_CTAS_PART_MAP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logmnrp_ctas_part_map"
+    },
+    {
+      "name": "LOGSTDBY$APPLY_MILESTONE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyapply_milestone"
+    },
+    {
+      "name": "LOGSTDBY$APPLY_PROGRESS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyapply_progress"
+    },
+    {
+      "name": "LOGSTDBY$EDS_TABLES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyeds_tables"
+    },
+    {
+      "name": "LOGSTDBY$EVENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyevents"
+    },
+    {
+      "name": "LOGSTDBY$FLASHBACK_SCN",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyflashback_scn"
+    },
+    {
+      "name": "LOGSTDBY$HISTORY",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyhistory"
+    },
+    {
+      "name": "LOGSTDBY$PARAMETERS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyparameters"
+    },
+    {
+      "name": "LOGSTDBY$PLSQL",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyplsql"
+    },
+    {
+      "name": "LOGSTDBY$SCN",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyscn"
+    },
+    {
+      "name": "LOGSTDBY$SKIP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyskip"
+    },
+    {
+      "name": "LOGSTDBY$SKIP_SUPPORT",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyskip_support"
+    },
+    {
+      "name": "LOGSTDBY$SKIP_TRANSACTION",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_logstdbyskip_transaction"
+    },
+    {
+      "name": "MVIEW$_ADV_AJG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_ajg"
+    },
+    {
+      "name": "MVIEW$_ADV_BASETABLE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_basetable"
+    },
+    {
+      "name": "MVIEW$_ADV_CLIQUE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_clique"
+    },
+    {
+      "name": "MVIEW$_ADV_ELIGIBLE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_eligible"
+    },
+    {
+      "name": "MVIEW$_ADV_EXCEPTIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_exceptions"
+    },
+    {
+      "name": "MVIEW$_ADV_FILTER",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_filter"
+    },
+    {
+      "name": "MVIEW$_ADV_FILTERINSTANCE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_filterinstance"
+    },
+    {
+      "name": "MVIEW$_ADV_FJG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_fjg"
+    },
+    {
+      "name": "MVIEW$_ADV_GC",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_gc"
+    },
+    {
+      "name": "MVIEW$_ADV_INFO",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_info"
+    },
+    {
+      "name": "MVIEW$_ADV_JOURNAL",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_journal"
+    },
+    {
+      "name": "MVIEW$_ADV_LEVEL",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_level"
+    },
+    {
+      "name": "MVIEW$_ADV_LOG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_log"
+    },
+    {
+      "name": "MVIEW$_ADV_OUTPUT",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_output"
+    },
+    {
+      "name": "MVIEW$_ADV_PARAMETERS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_parameters"
+    },
+    {
+      "name": "MVIEW$_ADV_PLAN",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_plan"
+    },
+    {
+      "name": "MVIEW$_ADV_PRETTY",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_pretty"
+    },
+    {
+      "name": "MVIEW$_ADV_ROLLUP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_rollup"
+    },
+    {
+      "name": "MVIEW$_ADV_SQLDEPEND",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_sqldepend"
+    },
+    {
+      "name": "MVIEW$_ADV_TEMP",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_temp"
+    },
+    {
+      "name": "MVIEW$_ADV_WORKLOAD",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_mview_adv_workload"
+    },
+    {
+      "name": "REDO_DB",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_redo_db"
+    },
+    {
+      "name": "REDO_LOG",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_redo_log"
+    },
+    {
+      "name": "REPL_SUPPORT_MATRIX",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_repl_support_matrix"
+    },
+    {
+      "name": "REPL_VALID_COMPAT",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_repl_valid_compat"
+    },
+    {
+      "name": "ROLLING$CONNECTIONS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingconnections"
+    },
+    {
+      "name": "ROLLING$DATABASES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingdatabases"
+    },
+    {
+      "name": "ROLLING$DIRECTIVES",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingdirectives"
+    },
+    {
+      "name": "ROLLING$EVENTS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingevents"
+    },
+    {
+      "name": "ROLLING$PARAMETERS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingparameters"
+    },
+    {
+      "name": "ROLLING$PLAN",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingplan"
+    },
+    {
+      "name": "ROLLING$STATISTICS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingstatistics"
+    },
+    {
+      "name": "ROLLING$STATUS",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_rollingstatus"
+    },
+    {
+      "name": "SCHEDULER_JOB_ARGS_TBL",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_scheduler_job_args_tbl"
+    },
+    {
+      "name": "SCHEDULER_PROGRAM_ARGS_TBL",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_scheduler_program_args_tbl"
+    },
+    {
+      "name": "SQLPLUS_PRODUCT_PROFILE",
+      "schema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SYSTEM_sqlplus_product_profile"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_bsln_statistics",
+  "name": "DBSNMP_BSLN_STATISTICS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "BSLN_STATISTICS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

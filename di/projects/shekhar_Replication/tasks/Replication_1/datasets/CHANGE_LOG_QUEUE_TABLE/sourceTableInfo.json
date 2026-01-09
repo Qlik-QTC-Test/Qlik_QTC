@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_change_log_queue_table",
+  "name": "GSMADMIN_INTERNAL_CHANGE_LOG_QUEUE_TABLE",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "CHANGE_LOG_QUEUE_TABLE",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

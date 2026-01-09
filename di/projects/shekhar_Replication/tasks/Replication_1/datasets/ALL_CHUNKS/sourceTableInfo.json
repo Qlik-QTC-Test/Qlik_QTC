@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$GSMADMIN_INTERNAL_all_chunks",
+  "name": "GSMADMIN_INTERNAL_ALL_CHUNKS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ALL_CHUNKS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

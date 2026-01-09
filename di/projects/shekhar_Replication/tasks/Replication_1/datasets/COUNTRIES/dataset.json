@@ -1,0 +1,17 @@
+{
+  "id": "countries",
+  "name": "COUNTRIES",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$HR_countries",
+      "name": "COUNTRIES",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$HR.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

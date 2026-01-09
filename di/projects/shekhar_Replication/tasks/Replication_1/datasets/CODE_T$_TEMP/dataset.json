@@ -1,0 +1,17 @@
+{
+  "id": "code_t_temp",
+  "name": "CODE_T$_TEMP",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$DVSYS_code_t_temp",
+      "name": "CODE_T$_TEMP",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$DVSYS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

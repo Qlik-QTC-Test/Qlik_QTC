@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_aq_key_shard_map",
+  "name": "SYSTEM_AQ$_KEY_SHARD_MAP",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "AQ$_KEY_SHARD_MAP",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

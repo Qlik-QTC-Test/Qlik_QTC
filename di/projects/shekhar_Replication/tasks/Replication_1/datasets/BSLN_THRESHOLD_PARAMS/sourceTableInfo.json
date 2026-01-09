@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_bsln_threshold_params",
+  "name": "DBSNMP_BSLN_THRESHOLD_PARAMS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "BSLN_THRESHOLD_PARAMS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

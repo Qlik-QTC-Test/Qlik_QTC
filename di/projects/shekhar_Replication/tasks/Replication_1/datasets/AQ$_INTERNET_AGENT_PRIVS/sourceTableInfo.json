@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_aq_internet_agent_privs",
+  "name": "SYSTEM_AQ$_INTERNET_AGENT_PRIVS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "AQ$_INTERNET_AGENT_PRIVS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

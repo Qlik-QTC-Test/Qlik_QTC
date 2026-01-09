@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_bsln_timegroups",
+  "name": "DBSNMP_BSLN_TIMEGROUPS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "BSLN_TIMEGROUPS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
