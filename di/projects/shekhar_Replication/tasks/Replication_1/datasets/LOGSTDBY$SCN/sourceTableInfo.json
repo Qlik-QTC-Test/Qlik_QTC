@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logstdbyscn",
+  "name": "SYSTEM_LOGSTDBY$SCN",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGSTDBY$SCN",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

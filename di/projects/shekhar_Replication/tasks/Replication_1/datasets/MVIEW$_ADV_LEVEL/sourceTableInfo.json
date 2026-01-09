@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_mview_adv_level",
+  "name": "SYSTEM_MVIEW$_ADV_LEVEL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MVIEW$_ADV_LEVEL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

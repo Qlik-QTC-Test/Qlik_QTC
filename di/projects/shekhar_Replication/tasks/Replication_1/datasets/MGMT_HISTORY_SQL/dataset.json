@@ -1,0 +1,17 @@
+{
+  "id": "mgmt_history_sql",
+  "name": "MGMT_HISTORY_SQL",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$DBSNMP_mgmt_history_sql",
+      "name": "MGMT_HISTORY_SQL",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

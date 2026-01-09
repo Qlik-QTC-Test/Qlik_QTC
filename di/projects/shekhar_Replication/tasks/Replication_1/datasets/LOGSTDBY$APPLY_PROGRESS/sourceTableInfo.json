@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logstdbyapply_progress",
+  "name": "SYSTEM_LOGSTDBY$APPLY_PROGRESS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGSTDBY$APPLY_PROGRESS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

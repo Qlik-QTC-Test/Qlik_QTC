@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_mview_adv_basetable",
+  "name": "SYSTEM_MVIEW$_ADV_BASETABLE",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MVIEW$_ADV_BASETABLE",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

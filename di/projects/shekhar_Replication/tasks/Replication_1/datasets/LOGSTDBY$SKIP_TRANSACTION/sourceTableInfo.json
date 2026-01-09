@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logstdbyskip_transaction",
+  "name": "SYSTEM_LOGSTDBY$SKIP_TRANSACTION",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGSTDBY$SKIP_TRANSACTION",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

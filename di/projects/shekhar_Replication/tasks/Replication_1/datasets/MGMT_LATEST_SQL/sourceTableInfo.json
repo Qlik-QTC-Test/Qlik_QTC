@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_mgmt_latest_sql",
+  "name": "DBSNMP_MGMT_LATEST_SQL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MGMT_LATEST_SQL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

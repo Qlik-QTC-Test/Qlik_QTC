@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_mgmt_baseline_sql",
+  "name": "DBSNMP_MGMT_BASELINE_SQL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MGMT_BASELINE_SQL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

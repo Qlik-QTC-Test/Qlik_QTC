@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_mview_adv_filter",
+  "name": "SYSTEM_MVIEW$_ADV_FILTER",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MVIEW$_ADV_FILTER",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$DBSNMP_mgmt_snapshot_sql",
+  "name": "DBSNMP_MGMT_SNAPSHOT_SQL",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MGMT_SNAPSHOT_SQL",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$DBSNMP.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

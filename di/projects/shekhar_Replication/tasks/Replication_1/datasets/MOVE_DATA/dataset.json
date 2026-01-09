@@ -1,0 +1,17 @@
+{
+  "id": "move_data",
+  "name": "MOVE_DATA",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$GSMADMIN_INTERNAL_move_data",
+      "name": "MOVE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication_1-9dnh",
+      "schema": "{{task.replication_1-9dnh:null$_$GSMADMIN_INTERNAL.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

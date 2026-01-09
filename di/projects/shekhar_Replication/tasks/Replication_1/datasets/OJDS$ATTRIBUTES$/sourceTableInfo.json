@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OJVMSYS_ojdsattributes",
+  "name": "OJVMSYS_OJDS$ATTRIBUTES$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OJDS$ATTRIBUTES$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_mview_adv_clique",
+  "name": "SYSTEM_MVIEW$_ADV_CLIQUE",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MVIEW$_ADV_CLIQUE",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

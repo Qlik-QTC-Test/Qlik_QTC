@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_mview_adv_sqldepend",
+  "name": "SYSTEM_MVIEW$_ADV_SQLDEPEND",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "MVIEW$_ADV_SQLDEPEND",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logstdbyparameters",
+  "name": "SYSTEM_LOGSTDBY$PARAMETERS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGSTDBY$PARAMETERS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

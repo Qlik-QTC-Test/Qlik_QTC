@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$OJVMSYS_ojdsbindings",
+  "name": "OJVMSYS_OJDS$BINDINGS$",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "OJDS$BINDINGS$",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$OJVMSYS.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

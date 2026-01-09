@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$SYSTEM_logstdbyevents",
+  "name": "SYSTEM_LOGSTDBY$EVENTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOGSTDBY$EVENTS",
+    "dbSchema": "{{task.replication_1-9dnh:null$_$SYSTEM.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
