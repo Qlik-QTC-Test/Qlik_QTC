@@ -1,0 +1,37 @@
+{
+  "sourceConnection": "{{task.replication-sjqh.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "DEPARTMENT",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_department"
+    },
+    {
+      "name": "EMPLOYEES",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_employees"
+    },
+    {
+      "name": "ORDERS",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_orders"
+    },
+    {
+      "name": "PRODUCTS",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_products"
+    },
+    {
+      "name": "TEST_CUSTOMER",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$SHEKHAR_test_customer"
+    }
+  ]
+}

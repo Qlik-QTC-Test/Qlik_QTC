@@ -1,0 +1,43 @@
+{
+  "id": "$replicate$SHEKHAR_department",
+  "name": "SHEKHAR_DEPARTMENT",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "DEPARTMENT",
+    "dbSchema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+    "columns": [
+      {
+        "name": "DEPT_ID",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 10,
+          "originalTypeFull": ""
+        },
+        "id": "dept_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "DEPT_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "dept_name",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

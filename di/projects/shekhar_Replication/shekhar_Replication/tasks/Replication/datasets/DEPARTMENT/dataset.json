@@ -1,0 +1,17 @@
+{
+  "id": "department",
+  "name": "DEPARTMENT",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$SHEKHAR_department",
+      "name": "DEPARTMENT",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "replication-sjqh",
+      "schema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

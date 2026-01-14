@@ -1,0 +1,58 @@
+{
+  "id": "$replicate$SHEKHAR_test_customer",
+  "name": "SHEKHAR_TEST_CUSTOMER",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "TEST_CUSTOMER",
+    "dbSchema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+    "columns": [
+      {
+        "name": "CUSTOMER_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 10,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customer_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "CUSTOMER_NAME",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customer_name",
+        "flags": "NONE"
+      },
+      {
+        "name": "CITY",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "city",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
