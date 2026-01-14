@@ -1,0 +1,58 @@
+{
+  "id": "$replicate$SHEKHAR_products",
+  "name": "SHEKHAR_PRODUCTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "PRODUCTS",
+    "dbSchema": "{{task.replication-sjqh:null$_$SHEKHAR.schema}}",
+    "columns": [
+      {
+        "name": "PRODUCT_ID",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 10,
+          "originalTypeFull": ""
+        },
+        "id": "product_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRODUCT_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "product_name",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRICE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 10,
+          "originalTypeFull": ""
+        },
+        "id": "price",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
